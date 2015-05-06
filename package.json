@@ -1,6 +1,6 @@
 {
   "name": "bitcsv-x",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Extracts csv data by dates from large chunk of bitcoin trade log from bitcoincharts.com",
   "engines": {
     "node": ">=0.10"

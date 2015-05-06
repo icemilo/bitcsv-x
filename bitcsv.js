@@ -24,7 +24,7 @@ streamer;
 var argv = optimist.usage(  
   "\nExtracts large csv file to smaller csv by dates\n".bold + 
   "Usage:\n".magenta+ 
-  "node csv_to_json.js -i /path/to/file.csv -o /path/to/output.csv-s 02-05-2015 -e 04-05-2015" 
+  "bitcsv-x [-n] -i /path/to/file.csv -o /path/to/output.csv-s 02-05-2015 -e 04-05-2015" 
   ).demand(['o','s','e'])
   .options('n',{
     alias:"new",
