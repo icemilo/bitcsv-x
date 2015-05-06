@@ -1,0 +1,28 @@
+{
+  "name": "bitcsv-x",
+  "version": "0.1.9",
+  "description": "Extracts csv data by dates from large chunk of bitcoin trade log from bitcoincharts.com",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bin": {
+    "bitcsv-x": "bitcsv.js"
+  },
+  "dependencies": {
+    "ya-csv": "x.x.x",
+    "optimist": "x.x.x",
+    "colors": "x.x.x",
+    "moment": "x.x.x",
+    "wget": "x.x.x",
+    "progress-bar": "x.x.x",
+    "mkdirp": "x.x.x",
+    "async": "x.x.x"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/icemilo/bitcsv-x"
+  },
+  "keywords" : ["bitcoin", "bitstamp", "csv", "cli", "bitcoincharts"],
+  "author": "icemilo",
+  "license": "MIT"
+}
