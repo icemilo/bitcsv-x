@@ -10,7 +10,7 @@ $ npm install -g bitcsv-x
 ##Usages
 
 ```
-$ bitcsv-extract
+$ bitcsv-x
 
 Extracts large csv file to smaller csv by dates
 Usage:
